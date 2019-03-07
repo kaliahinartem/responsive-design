@@ -1,0 +1,32 @@
+@media screen and (min-width: 769px) {
+    .page-container {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .first-line {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .item-wrapper {
+        flex-basis: 50%;
+    }
+
+    .xl-grow {
+        flex-basis: 100%;
+    }
+
+    .second-line {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .sm-grow {
+        flex-basis: 100%;
+    }
+}
